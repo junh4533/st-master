@@ -1,0 +1,33 @@
+footer {
+    padding: 5vh 0;
+    text-align: center;
+
+    .nav-link {
+        margin-bottom: 10px;
+        a:hover {
+            transition: color .5s ease-in-out;
+        }
+    }
+}
+
+.social a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    background: $subheading-gray;
+    color: white;
+    border-radius: 50%;
+
+    &:hover {
+        background: $pastel-yellow;
+        transition: background .3s ease-in-out;
+    }
+}
+
+.copy-right {
+    color: rgb(62, 62, 62) !important;
+}
+
+

@@ -1,0 +1,36 @@
+// @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,900);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+@font-face {
+    font-family: "Montserrat normal";
+    src: url("ttps://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap");
+}
+
+@font-face {
+    font-family: "Montserrat bold";
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat");
+}
+
+$font-regular: 'Montserrat bold', sans-serif;
+$font-bold: 'Montserrat bold', sans-serif;
+
+$dark-gray: rgb(31, 31, 31);
+$light-gray: rgb(202, 202, 202);
+$heading-gray: rgb(45, 45, 45);
+$subheading-gray: rgb(62, 62, 62);
+
+
+$light-pink: #f8d6c4;
+$yellow-white: #fffbea;
+$navy-blue: #04277d;
+$pastel-yellow: #f6c253;
+
+// $test: #6a41ca;
+// $orange: #E9A80F;
+// $highlight-blue: #2bbdd2;
+// $highlight-blue: #04277d;
+// $highlight-blue: #2ee3ff;
+$off-white: rgb(250, 250, 250);
+
+
+

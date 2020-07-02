@@ -1,0 +1,36 @@
+#services {
+    .services-item {
+        max-width: 360px;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+
+        i {
+            display: block;
+            width: 90px;
+            height: 90px;
+            line-height: 89px;
+            margin: 0 auto;
+            font-size: 40px;
+            color: $pastel-yellow;
+            margin-bottom: 30px;
+            border: 1px solid $pastel-yellow;
+            border-width: thick;
+            border-radius: 50%;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s linear;
+            -ms-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+
+            &:hover {
+                background: $pastel-yellow;
+                color: #fff;
+            }
+        }
+
+        p {
+            margin-top: 1em;
+        }
+    }
+}
