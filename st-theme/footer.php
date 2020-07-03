@@ -13,7 +13,7 @@
         <p class="nav-link">
             <a href="mailto:info.savingtakeouts@gmail.com">info.savingtakeouts@gmail.com</a>
             &nbsp;|&nbsp; <a href="<?php echo get_site_url(); ?>/contact-us">Support</a> &nbsp;|
-            &nbsp; <a href="<?php echo get_site_url(); ?>/privacy-policy">Privacy Policy</a>
+            &nbsp; <a href="<?php echo get_site_url(); ?>/privacy-policy">Privacy Policy</a> |
             &nbsp; <a href="<?php echo get_site_url(); ?>/terms-and-conditions">Terms</a>
         </p>
         <!-- copy right -->
