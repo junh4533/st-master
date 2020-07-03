@@ -11,11 +11,14 @@
 					<h1 class="d-inline">Saving Takeouts</h1>
 					<br><br>
 					<h3>Free business consultation <br> for small restaurants</h3> <br>
-					<a href="index.php#how-does-it-work" class="font-weight-bold btn btn-warning btn-lg mt-4">Apply Now</a>
+					<a href="index.php#how-does-it-work" class="font-weight-bold btn btn-warning btn-lg mt-4">Apply
+						Now</a>
 				</div>
 			</div>
-			<div class="col-12 col-lg-7">
-				<img id="home-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/landing.png" alt="Landing">
+			<div class="col-lg-1"></div>
+			<div class="col-12 col-lg-6">
+				<img id="home-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/landing.png"
+					alt="Landing">
 			</div>
 		</div>
 	</div>
@@ -27,10 +30,14 @@
 
 <!-- OUR MISSION SECTION -->
 <section id="mission">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
-			<div class="col-2 col-xl-1 order-4 order-xl-1"></div>
-			<div class="col-8 col-xl-5 order-5 order-xl-2 d-flex align-items-center">
+			<div class="col-8 col-xl-6 order-xl-3 mb-5">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission">
+			</div>
+			<div class="col-0 col-xl-1 order-xl-2"></div>
+			<!-- <div class="col-2 col-xl-1 order-4 order-xl-1"></div> -->
+			<div class="col-8 col-xl-5 order-xl-1 d-flex align-items-center">
 				<div>
 					<h2>Our Mission</h2>
 					<p class="mt-4">
@@ -54,12 +61,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-2 col-xl-0 order-6 order-xl-5"></div>
-			<div class="col-2 col-xl-0 order-1 order-xl-6"></div>
-			<div class="col-8 col-xl-5 order-2 order-xl-3">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission">
-			</div>
-			<div class="col-2 col-xl-1 order-3 order-xl-4"></div>
+			<!-- <div class="col-2 col-xl-1 order-3 order-xl-4"></div> -->
 		</div>
 	</div>
 </section>
@@ -75,21 +77,24 @@
 			<div class="container">
 				<div class="row mt-5">
 					<div class="col-12 col-lg-4">
-						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/checklist.png" alt="Checklist"> <br>
+						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/checklist.png"
+							alt="Checklist"> <br>
 						<h5>1) Tell us how we can help</h5>
 						<p class="mt-2">
 							Our representatives will be here to help you with what you need.
 						</p>
 					</div>
 					<div class="col-12 col-lg-4">
-						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/deal.png" alt="Deal"> <br>
+						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/deal.png"
+							alt="Deal"> <br>
 						<h5>2) We'll match you with a specialist</h5>
 						<p class="mt-2">
 							Our team is dedicated to being there for you every step of the way.
 						</p>
 					</div>
 					<div class="col-12 col-lg-4">
-						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/startup.png" alt="Startup"> <br>
+						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/startup.png"
+							alt="Startup"> <br>
 						<h5>3) Get back to your business</h5>
 						<p class="mt-2">
 							We’ll take care of the marketing so you can focus on taking care of the customers coming
@@ -113,21 +118,24 @@
 			<div class="container">
 				<div class="row mt-5">
 					<div class="col-12 col-lg-4">
-						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/hr.png" alt="HR"> <br>
+						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/hr.png"
+							alt="HR"> <br>
 						<h5>1) Tell us about your expertise</h5>
 						<p class="mt-4">
 							We want to know more about you and what you can bring to the table.
 						</p>
 					</div>
 					<div class="col-12 col-lg-4">
-						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/deal.png" alt="Deal"> <br>
+						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/deal.png"
+							alt="Deal"> <br>
 						<h5>2) We'll match you with a team</h5>
 						<p class="mt-4">
 							You’ll be working on real client work and helping to satisfy their business needs.
 						</p>
 					</div>
 					<div class="col-12 col-lg-4">
-						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/idea.png" alt="Idea"> <br>
+						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/idea.png"
+							alt="Idea"> <br>
 						<h5>3) Gain valuable experience</h5>
 						<p class="mt-4">
 							Add and develop important skills to your professional career while being a part of a
