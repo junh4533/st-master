@@ -42,7 +42,7 @@
       </div>
 
       <div class="col-6 col-md-3 eboard-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshots/winnie2.jpg" class="rounded-circle img-fluid" alt="Winnie">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshots/winnie.jpg" class="rounded-circle img-fluid" alt="Winnie">
         <div class="eboard-description">
           <h5>Winnie Lin</h5> <br>
           <p>Account Manager</p>
@@ -50,7 +50,7 @@
       </div>
 
       <div class="col-6 col-md-3 eboard-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshots/ken3.jpg" class="rounded-circle img-fluid" alt="Ken">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshots/ken.jpg" class="rounded-circle img-fluid" alt="Ken">
         <div class="eboard-description">
           <h5>Ken Chan</h5> <br>
           <p>Public Relations Manager</p>
@@ -58,7 +58,7 @@
       </div>
 
       <div class="col-6 col-md-3 eboard-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshots/kelly2.jpg" class="rounded-circle img-fluid" alt="Kelly">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshots/kelly.jpg" class="rounded-circle img-fluid" alt="Kelly">
         <div class="eboard-description">
           <h5>Kelly Wang</h5> <br>
           <p>Brand Manager</p>
@@ -122,7 +122,7 @@
       </div>
 
       <div class="col-6 col-md-3 eboard-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshots/raymond2.jpg" class="rounded-circle img-fluid" alt="Raymond">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshots/raymond.jpg" class="rounded-circle img-fluid" alt="Raymond">
         <div class="eboard-description">
           <h5>Raymond Tung</h5> <br>
           <p>Business Development Manager</p>
@@ -130,7 +130,7 @@
       </div>
 
       <div class="col-6 col-md-3 eboard-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshots/kevin2.jpg" class="rounded-circle img-fluid" alt="Kevin">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshots/kevin.jpg" class="rounded-circle img-fluid" alt="Kevin">
         <div class="eboard-description">
           <h5>Kevin He</h5> <br>
           <p>Compliance Officer</p>
