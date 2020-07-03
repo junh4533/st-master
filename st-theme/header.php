@@ -1,14 +1,3 @@
-<?php 
-
-// The header for our theme 
-
-// It should include the following:
-// -meta tags 
-// -scripts 
-// -stylesheets (Bootstrap and custom styles)
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -83,24 +72,18 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo get_site_url(); ?>/#services">Services</a>
             </li>
-<!--             <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="index.php#mission">Our Mission</a>
-                    <a class="dropdown-item" href="our-team.php">Our Team</a>
+                    <a class="dropdown-item" href="<?php echo get_site_url(); ?>/#mission">Our Mission</a>
+                    <a class="dropdown-item" href="<?php echo get_site_url(); ?>/our-team">Our Team</a>
                 </div>
-            </li> -->
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo get_site_url(); ?>/open-applications">Applications</a>
-            </li>
-			 <li class="nav-item">
-                <a class="nav-link" href="<?php echo get_site_url(); ?>/#mission">Our Mission</a>
-            </li>
-			 <li class="nav-item">
-                <a class="nav-link" href="<?php echo get_site_url(); ?>/our-team">Our Team</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo get_site_url(); ?>/#footer">Contact Us</a>
+                <a class="nav-link" href="<?php echo get_site_url(); ?>/open-applications">Opportunities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo get_site_url(); ?>/contact-us">Contact Us</a>
             </li>
         </ul>
     </div>

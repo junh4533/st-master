@@ -115,21 +115,21 @@
 					<div class="col-12 col-lg-4">
 						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/hr.png" alt="HR"> <br>
 						<h5>1) Tell us about your expertise</h5>
-						<p class="mt-2">
+						<p class="mt-4">
 							We want to know more about you and what you can bring to the table.
 						</p>
 					</div>
 					<div class="col-12 col-lg-4">
 						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/deal.png" alt="Deal"> <br>
 						<h5>2) We'll match you with a team</h5>
-						<p class="mt-2">
+						<p class="mt-4">
 							You’ll be working on real client work and helping to satisfy their business needs.
 						</p>
 					</div>
 					<div class="col-12 col-lg-4">
 						<img class="mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/images/idea.png" alt="Idea"> <br>
 						<h5>3) Gain valuable experience</h5>
-						<p class="mt-2">
+						<p class="mt-4">
 							Add and develop important skills to your professional career while being a part of a
 							startup
 							team culture.
