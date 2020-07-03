@@ -1,4 +1,7 @@
 
+
+<hr>
+
 <!-- footer -->
 <footer id="footer">
     <div class="social mb-2">
@@ -18,7 +21,7 @@
         </p>
         <!-- copy right -->
         <!-- This theme comes under Creative Commons Attribution 4.0 Unported. So don't remove below link back -->
-        <p class="copy-right">Copyright &copy; 2020 <a href="https://savingtakeouts.org">Saving Takeouts</a>
+        <p class="copy-right">Copyright &copy; 2020 <a href="<?php echo get_site_url(); ?>">Saving Takeouts</a>
     </div>
 </footer>
 
