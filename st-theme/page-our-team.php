@@ -137,6 +137,14 @@
         </div>
       </div>
 
+      <div class="col-6 col-md-3 eboard-container">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshots/donna.jpg" class="rounded-circle img-fluid" alt="Donna">
+        <div class="eboard-description">
+          <h5>Donna Cheung</h5> <br>
+          <p>Growth Strategist</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
