@@ -5,7 +5,7 @@
 <section class="" id="open-applications">
         <h2 class="d-block text-center">Available Positions</h2>
         <div class="container mt-5">
-            <div class="mb-5" id="front-end-developer-intern">
+            <!-- <div class="mb-5" id="front-end-developer-intern">
                 <h3>Front-End Developer Intern</h3>
                 <hr>
                 <p>
@@ -56,7 +56,7 @@
                     class="font-weight-bold btn btn-warning btn-lg mt-4" rel="noopener noreferrer">
                     Apply Now
                 </a>
-            </div>
+            </div> 
             <br>
             <div class="mb-5" id="pr-intern">
                 <h3>Public Relations Intern</h3>
@@ -111,7 +111,7 @@
                     class="font-weight-bold btn btn-warning btn-lg mt-4" rel="noopener noreferrer">
                     Apply Now
                 </a>
-            </div>
+            </div> -->
             <div class="mb-5" id="Photography-intern">
                 <h3>Photography Intern</h3>
                 <hr>
