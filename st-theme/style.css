@@ -221,10 +221,11 @@ section {
   margin-top: 40px;
   text-align: center; }
   #services .services-item i {
-    display: block;
+    display: flex;
     width: 90px;
     height: 90px;
-    line-height: 89px;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     font-size: 40px;
     color: #f6c253;
