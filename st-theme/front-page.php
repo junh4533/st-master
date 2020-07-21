@@ -105,7 +105,7 @@
 			</div>
 			<a href="https://forms.gle/2i6nYGw2gkc7bQeo8" target="_blank"
 				class="font-weight-bold btn btn-warning btn-lg mt-5">
-				Register Now
+				Apply Now
 			</a>
 		</div>
 	</section>
