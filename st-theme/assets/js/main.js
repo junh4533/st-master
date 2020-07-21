@@ -19,6 +19,7 @@ jQuery(document).ready(function () {
                 jQuery(":header").css("color", "rgb(250, 250, 250)");
                 jQuery('#toggle-businesses').css("color", "rgb(62, 62, 62)");
                 jQuery('#toggle-volunteers').css("color", "#f6c253");
+                jQuery('#apply-now').attr("href", document.location.host + "/open-applications/");
             }
         } else {
             window.location.href = String(window.location.origin) + "#for-businesses";

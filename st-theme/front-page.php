@@ -11,7 +11,7 @@
 					<h1 class="d-inline">Saving Takeouts</h1>
 					<br><br>
 					<h3>Free business consultation <br> for small restaurants</h3> <br>
-					<a href="index.php#how-does-it-work" class="font-weight-bold btn btn-warning btn-lg mt-4">Apply
+					<a id="apply-now" href="index.php#how-does-it-work" class="font-weight-bold btn btn-warning btn-lg mt-4">Apply
 						Now</a>
 				</div>
 			</div>
