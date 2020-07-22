@@ -29,6 +29,12 @@ body {
   scroll-behavior: smooth;
   color: #1f1f1f; }
 
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover; }
+
 h1,
 h2,
 h3,
