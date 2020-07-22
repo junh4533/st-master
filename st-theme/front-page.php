@@ -33,7 +33,16 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-8 col-xl-6 order-xl-3 mb-5">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission">
+				<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission"> -->
+				<video 
+					width= 800
+					height= 380
+					autoplay 
+					controls>
+
+  					<source src="<?php echo get_template_directory_uri(); ?>/assets/Videos/promo_video4.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
 			</div>
 			<div class="col-0 col-xl-1 order-xl-2"></div>
 			<!-- <div class="col-2 col-xl-1 order-4 order-xl-1"></div> -->
