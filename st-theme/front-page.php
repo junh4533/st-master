@@ -11,7 +11,8 @@
 					<h1 class="d-inline">Saving Takeouts</h1>
 					<br><br>
 					<h3>Free business consultation <br> for small restaurants</h3> <br>
-					<a id="apply-now" href="index.php#how-does-it-work" class="font-weight-bold btn btn-warning btn-lg mt-4">Apply
+					<a id="apply-now" href="index.php#how-does-it-work"
+						class="font-weight-bold btn btn-warning btn-lg mt-4">Apply
 						Now</a>
 				</div>
 			</div>
@@ -35,13 +36,13 @@
 			<div class="col-8 col-xl-6 order-xl-3 mb-5">
 				<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission"> -->
 				<video 
-					width= 800
-					height= 380
+					width=100%
+					height=100%
 					autoplay 
-					controls>
-
-  					<source src="<?php echo get_template_directory_uri(); ?>/assets/Videos/promo_video4.mp4" type="video/mp4">
-				Your browser does not support the video tag.
+					controls 
+					src="<?php echo get_template_directory_uri(); ?>/assets/videos/promo.mp4"
+				>
+				This browser doesn't support this video file.
 				</video>
 			</div>
 			<div class="col-0 col-xl-1 order-xl-2"></div>
