@@ -31,7 +31,7 @@
 <!-- OUR MISSION SECTION -->
 <section id="mission">
 	<div class="container">
-		<div class="row">
+		<div class="row justify-content-center">
 			<div class="col-8 col-xl-6 order-xl-3 mb-5">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission">
 			</div>
