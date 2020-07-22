@@ -36,8 +36,6 @@
 			<div class="col-8 col-xl-6 order-xl-3 mb-5">
 				<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission"> -->
 				<video class=video
-					max-width:100%; 
-    				height:auto;
 					autoplay 
 					controls 
 					src="<?php echo get_template_directory_uri(); ?>/assets/videos/promo.mp4"
