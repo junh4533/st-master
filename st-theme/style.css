@@ -112,13 +112,6 @@ section {
   height: 8vh;
   padding: 0; }
 
-#mission #promo-video {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: cover; }
-
 .navbar {
   font-weight: 600;
   background: white;
@@ -185,6 +178,15 @@ section {
       color: #fff; }
   #services .services-item p {
     margin-top: 1em; }
+
+.blog_style_objects_conteiner_1_0 * {
+  background: transparent !important; }
+
+.pagination-links_0 a {
+  border-radius: 50% !important; }
+
+.ffwd-like:before {
+  color: #f6c253; }
 
 .eboard-container {
   text-align: center; }

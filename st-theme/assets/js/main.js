@@ -19,6 +19,13 @@ jQuery(document).ready(function () {
                 jQuery(":header").css("color", "rgb(250, 250, 250)");
                 jQuery('#toggle-businesses').css("color", "rgb(62, 62, 62)");
                 jQuery('#toggle-volunteers').css("color", "#f6c253");
+                jQuery('#apply-now').attr("href", document.location.host + "/open-applications/");
+
+                // toggle color for fb feed
+                jQuery('.blog_style_objects_conteiner_1_0').find('*').css("background","transparent");
+                jQuery('.blog_style_objects_conteiner_1_0').find('a').css("color","#F6C253");
+                jQuery('.blog_style_objects_conteiner_1_0').find('i').css("color","#F6C253");
+                jQuery('.paging-input_0').css("color","white");
             }
         } else {
             window.location.href = String(window.location.origin) + "#for-businesses";
@@ -38,6 +45,12 @@ jQuery(document).ready(function () {
                 jQuery(":header").css("color", "rgb(62, 62, 62)");
                 jQuery('#toggle-businesses').css("color", "#f6c253");
                 jQuery('#toggle-volunteers').css("color", "rgb(62, 62, 62)");
+
+                // toggle color for fb feed
+                jQuery('.blog_style_objects_conteiner_1_0').find('*').css("background","white");
+                jQuery('.blog_style_objects_conteiner_1_0').find('a').css("color","#1C1C1C");
+                jQuery('.blog_style_objects_conteiner_1_0').find('i').css("color","#b0b0b0");
+                jQuery('.paging-input_0').css("color","#666666");
             }
         }
     });
@@ -64,4 +77,5 @@ jQuery(document).ready(function () {
     jQuery('.navbar-nav>li>a').not(".dropdown-toggle").on('click', function () {
         jQuery('.navbar-collapse').collapse('hide');
     });
+
 });

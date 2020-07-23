@@ -38,8 +38,13 @@
 		<div class="row justify-content-center">
 			<div class="col-8 col-xl-6 order-xl-3 mb-5 mb-xl-0" style="display:flex; align-items: center;">
 				<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission"> -->
+<<<<<<< HEAD
+				<video id="promo-video" controls
+					src="<?php echo get_template_directory_uri(); ?>/assets/videos/promo.mp4">
+=======
 				<div class="videowrapper" style="--aspect-ratio:16/9; ">
 					<video id="promo-video" controls src="<?php echo get_template_directory_uri(); ?>/assets/videos/promo.mp4">
+>>>>>>> 4a6d6f65cfd63be21d13e536958091d09f529915
 					This browser doesn't support this video file.
 					</video>
 				</div>
@@ -211,6 +216,15 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<hr>
+
+<!-- FB FEED SECTION -->
+<section class="text-center" id="fb-feed">
+	<h2>Latest Updates</h2>
+	<div class="mt-5">
+		<?php echo do_shortcode( '[WD_FB id="1"]' ); ?>
 	</div>
 </section>
 
