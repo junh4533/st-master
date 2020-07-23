@@ -35,7 +35,8 @@
 		<div class="row justify-content-center">
 			<div class="col-8 col-xl-6 order-xl-3 mb-5">
 				<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission"> -->
-				<video id="promo-video" controls src="<?php echo get_template_directory_uri(); ?>/assets/videos/promo.mp4">
+				<video id="promo-video" controls
+					src="<?php echo get_template_directory_uri(); ?>/assets/videos/promo.mp4">
 					This browser doesn't support this video file.
 				</video>
 			</div>
@@ -206,6 +207,15 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<hr>
+
+<!-- FB FEED SECTION -->
+<section class="text-center" id="fb-feed">
+	<h2>Latest Updates</h2>
+	<div class="mt-5">
+		<?php echo do_shortcode( '[WD_FB id="1"]' ); ?>
 	</div>
 </section>
 

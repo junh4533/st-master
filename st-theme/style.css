@@ -251,6 +251,15 @@ section {
   #services .services-item p {
     margin-top: 1em; }
 
+.blog_style_objects_conteiner_1_0 * {
+  background: transparent !important; }
+
+.pagination-links_0 a {
+  border-radius: 50% !important; }
+
+.ffwd-like:before {
+  color: #f6c253; }
+
 .eboard-container {
   text-align: center; }
 
