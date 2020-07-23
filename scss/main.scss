@@ -8,7 +8,6 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-
 @import "variables";
 @import "mixins";
 
@@ -136,6 +135,16 @@ section {
     background: $pastel-yellow;
     height: 8vh;
     padding: 0;
+}
+
+#mission {
+    #promo-video {
+        width:100%; 
+        height:100%;
+        top:0;
+        left:0;
+        object-fit: cover;
+    }
 }
 
 @import 'navbar';
