@@ -2,6 +2,7 @@
 <?php /* Template Name: Contact Us */ ?>
 <?php get_header();?>
 
+<p> Want to get in touch? We'd love to hear from you and help promote your business!</p> 
 <section id="contact">
     <h2 class="d-block text-center"> Contact Us </h2>
     <br>
