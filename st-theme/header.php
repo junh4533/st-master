@@ -58,13 +58,8 @@
     <!-- Navbar links -->
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item mr-3">
-                <label class="switch">
-                    <input type="checkbox" id="page-toggle">
-                    <span class="slider round"></span>
-                    <p id="toggle-businesses">Businesses</p>
-                    <p id="toggle-volunteers">Interns</p>
-                </label>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo get_site_url(); ?>/#mission">Our Mission</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo get_site_url(); ?>/#how-does-it-work">How does it work?</a>
@@ -72,12 +67,8 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo get_site_url(); ?>/#services">Services</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="<?php echo get_site_url(); ?>/#mission">Our Mission</a>
-                    <a class="dropdown-item" href="<?php echo get_site_url(); ?>/our-team">Our Team</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo get_site_url(); ?>/our-team">Our Team</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo get_site_url(); ?>/open-applications">Opportunities</a>

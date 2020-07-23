@@ -11,9 +11,12 @@
 					<h1 class="d-inline">Saving Takeouts</h1>
 					<br><br>
 					<h3>Free business consultation <br> for small restaurants</h3> <br>
-					<a id="apply-now" href="index.php#how-does-it-work"
-						class="font-weight-bold btn btn-warning btn-lg mt-4">Apply
-						Now</a>
+					<label class="switch">
+						<input type="checkbox" id="page-toggle">
+						<span class="slider round"></span>
+						<p id="toggle-businesses">Businesses</p>
+						<p id="toggle-volunteers">Interns</p>
+					</label>
 				</div>
 			</div>
 			<div class="col-lg-1"></div>
@@ -34,10 +37,7 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-8 col-xl-6 order-xl-3 mb-5">
-				<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission"> -->
-				<video id="promo-video" controls src="<?php echo get_template_directory_uri(); ?>/assets/videos/promo.mp4">
-					This browser doesn't support this video file.
-				</video>
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission">
 			</div>
 			<div class="col-0 col-xl-1 order-xl-2"></div>
 			<!-- <div class="col-2 col-xl-1 order-4 order-xl-1"></div> -->
