@@ -11,9 +11,12 @@
 					<h1 class="d-inline">Saving Takeouts</h1>
 					<br><br>
 					<h3>Free business consultation <br> for small restaurants</h3> <br>
-					<a id="apply-now" href="index.php#how-does-it-work"
-						class="font-weight-bold btn btn-warning btn-lg mt-4">Apply
-						Now</a>
+					<label class="switch">
+						<input type="checkbox" id="page-toggle">
+						<span class="slider round"></span>
+						<p id="toggle-businesses">Businesses</p>
+						<p id="toggle-volunteers">Interns</p>
+					</label>
 				</div>
 			</div>
 			<div class="col-lg-1"></div>
@@ -33,12 +36,23 @@
 <section id="mission">
 	<div class="container">
 		<div class="row justify-content-center">
+<<<<<<< HEAD
 			<div class="col-8 col-xl-6 order-xl-3 mb-5">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission">
+=======
+			<div class="col-8 col-xl-6 order-xl-3 mb-5 mb-xl-0" style="display:flex; align-items: center;">
 				<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission"> -->
+<<<<<<< HEAD
 				<video id="promo-video" controls
 					src="<?php echo get_template_directory_uri(); ?>/assets/videos/promo.mp4">
+=======
+				<div class="videowrapper" style="--aspect-ratio:16/9; ">
+					<video id="promo-video" controls src="<?php echo get_template_directory_uri(); ?>/assets/videos/promo.mp4">
+>>>>>>> 4a6d6f65cfd63be21d13e536958091d09f529915
 					This browser doesn't support this video file.
-				</video>
+					</video>
+				</div>
+>>>>>>> 9442adfb3b4028c06ef09087c7145c4138239955
 			</div>
 			<div class="col-0 col-xl-1 order-xl-2"></div>
 			<!-- <div class="col-2 col-xl-1 order-4 order-xl-1"></div> -->

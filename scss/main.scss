@@ -138,16 +138,6 @@ section {
     padding: 0;
 }
 
-#mission {
-    #promo-video {
-        width:100%; 
-        height:100%;
-        top:0;
-        left:0;
-        object-fit: cover;
-    }
-}
-
 @import 'navbar';
 @import 'svg-animation';
 @import 'how-does-it-work';
@@ -201,4 +191,95 @@ section {
     // .contact form {
     //     width: 60%;
     // }
+}
+
+$switch-width: 245px;
+$switch-height: 50px;
+$travel-distance: calc(#{$switch-width}/2);
+$slider-width: calc(#{$switch-width}/2);
+
+.switch {
+    position: relative;
+    display: inline-block;
+    margin: 20px 5px;
+    width: $switch-width;
+    height: $switch-height;
+
+    p {
+        position: absolute;
+        top: 12.5px;
+        font-weight: 600;
+    }
+
+    #toggle-businesses {
+        left: 12px;
+        // color: $pastel-yellow;
+    }
+
+    #toggle-volunteers {
+        right: 30px;
+    }
+}
+
+.switch input {
+    cursor: pointer;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $pastel-yellow;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: calc(#{$switch-height} - 8px);
+    width: calc(#{$slider-width} - 8px);
+    left: 4px;
+    bottom: 4px;
+    background-color: $off-white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+// input:checked+.slider {
+//     background-color: #2196F3;
+// }
+
+// input:focus+.slider {
+//     box-shadow: 0 0 1px #2196F3;
+// }
+
+#page-toggle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.toggle-switch-animation {
+    input:checked+.slider:before {
+        -webkit-transform: translateX($travel-distance);
+        -ms-transform: translateX($travel-distance);
+        transform: translateX($travel-distance);
+    }
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 5px;
+}
+
+.slider.round:before {
+    border-radius: 5px;
+    box-shadow: 0 0 4px 2px rgba(51, 51, 51, 0.438);
 }
