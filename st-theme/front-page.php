@@ -35,10 +35,8 @@
 		<div class="row justify-content-center">
 			<div class="col-8 col-xl-6 order-xl-3 mb-5">
 				<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="Mission"> -->
-
-				<video width="100%" height="100%" controls>
-					<source src="<?php echo get_template_directory_uri(); ?>/assets/videos/promo.mp4" type="video/mp4">
-					Your browser does not support the video tag.
+				<video id="promo-video" controls src="<?php echo get_template_directory_uri(); ?>/assets/videos/promo.mp4">
+				This browser doesn't support this video file.
 				</video>
 			</div>
 			<div class="col-0 col-xl-1 order-xl-2"></div>
