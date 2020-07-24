@@ -18,11 +18,12 @@
             border: 1px solid $pastel-yellow;
             border-width: thick;
             border-radius: 50%;
-            -webkit-transition: all 0.3s linear;
-            -moz-transition: all 0.3s linear;
-            -ms-transition: all 0.3s linear;
-            -o-transition: all 0.3s linear;
-            transition: all 0.3s linear;
+            @include transition (all 0.3s ease-in-out);
+            // -webkit-transition: all 0.3s linear;
+            // -moz-transition: all 0.3s linear;
+            // -ms-transition: all 0.3s linear;
+            // -o-transition: all 0.3s linear;
+            // transition: all 0.3s linear;
 
             &:hover {
                 background: $pastel-yellow;
