@@ -15,7 +15,7 @@
 </head>
     <body <?php body_class(); //displays class names for the body ?>>
 
-    <!-- Navigation Bar  -->
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-xl navbar-light fixed-top">
     <!-- Brand -->
     <a class="navbar-brand" href="<?php echo get_site_url(); ?>/#home">
