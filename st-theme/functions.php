@@ -26,5 +26,6 @@ function load_scripts()
     wp_enqueue_script('custom-js');
 }
 
+add_theme_support( 'post-thumbnails' );
 add_action('wp_enqueue_scripts', 'load_stylesheets');
 add_action('wp_enqueue_scripts', 'load_scripts');
