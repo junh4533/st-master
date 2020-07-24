@@ -4,8 +4,9 @@ footer {
 
     .nav-link {
         margin-bottom: 10px;
+
         a:hover {
-            transition: color .5s ease-in-out;
+            @include transition(color .5s ease-in-out);
         }
     }
 }
@@ -22,12 +23,10 @@ footer {
 
     &:hover {
         background: $pastel-yellow;
-        transition: background .3s ease-in-out;
+        @include transition(background .3s ease-in-out);
     }
 }
 
 .copy-right {
     color: rgb(62, 62, 62) !important;
 }
-
-

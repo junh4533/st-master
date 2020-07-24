@@ -1,90 +1,21 @@
-// #our-team {
-//     padding: 100px 0;
-//     text-align: center;
-
-//     .post {
-//         max-width: 750px;
-//         margin: 0 auto;
-//         font-size: 16px;
-//         font-style: italic;
-//     }
-
-//     h4 {
-//         margin-top: 30px;
-//         margin-bottom: 30px;
-//         font-size: 25px;
-//     }
-// }
-
-// .hover-img-container {
-//     position: relative;
-//     width: 100%;
-//     margin: auto;
-
-//     img {
-//         display: block;
-//         width: 100%;
-//         height: auto;
-//     }
-
-//     .overlay {
-//         position: absolute;
-//         top: 0;
-//         bottom: 0;
-//         left: 0;
-//         right: 0;
-//         height: 100%;
-//         width: 100%;
-//         opacity: 0;
-//         transition: .5s ease;
-//         background-color: rgba(23, 162, 184, 0.95);
-
-//         .text {
-//             font-size: 20px;
-//             position: absolute;
-//             bottom: 0;
-//             left: 50%;
-//             transform: translate(-50%);
-//             text-align: center;
-
-//             .quote {}
-//         }
-
-//         .contact-icons {
-//             position: absolute;
-//             left: 0;
-//             top: 2%;
-//             font-size: 200%;
-
-//             a {
-//                 display: block;
-//             }
-//         }
-//     }
-
-//     &:hover .overlay {
-//         opacity: 1;
-//     }
-// }
-
-.eboard-container {
+.member-container {
     text-align: center;
 }
 
 #our-team {
-
     .col-6 {
         margin-bottom: 5%;
         padding: 25px 25px 25px 25px;
     }
 }
 
-.eboard-description {
+.member-description {
     margin-top: 1rem;
 
     h5 {
         color: #6a41ca;
     }
+
     p {
         font-weight: 500;
         font-style: italic;
@@ -96,19 +27,9 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .rounded-circle{
-    max-width: 10vh;  
-    max-height: 10vh; 
-    object-fit: cover;
+    .rounded-circle {
+        max-width: 10vh;
+        max-height: 10vh;
+        object-fit: cover;
+    }
 }
-
-    // .eboard-description h3{
-    //     font-size:2vh;
-    // }
-
-    // .eboard-description h6{
-    //     font-size:1vh;
-    // }
-}
-
-

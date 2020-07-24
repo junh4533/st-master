@@ -16,7 +16,7 @@ body {
     scroll-behavior: smooth;
     box-sizing: border-box;
     font-size: 18px;
-    transition: background .5s ease-in-out;
+    @include transition(background .5s ease-in-out);
 }
 
 body {
@@ -34,7 +34,7 @@ h5,
 h6 {
     margin: 0 !important;
     display: inline;
-    transition: color .75s ease-in-out;
+    @include transition(color .75s ease-in-out);
 }
 
 h2,
@@ -63,7 +63,8 @@ p {
     padding: 0;
     font-weight: 500;
     color: $subheading-gray;
-    transition: color .75s ease-in-out;
+    // transition: color .75s ease-in-out;
+    @include transition(color .75s ease-in-out);
 }
 
 .btn {
@@ -83,7 +84,8 @@ a {
     &:hover {
         text-decoration: none;
         outline: 0 !important;
-        transition: color .35s ease-in-out;
+        // transition: color .35s ease-in-out;
+        @include transition(background-color .3s ease-in-out);
         color: $dark-gray;
     }
 
@@ -155,6 +157,7 @@ section {
 @import 'our-team';
 @import 'footer';
 @import 'open-applications';
+@import 'contact-us';
 
 /* Mobile devices */
 @media (max-width: 480px) {}
@@ -244,8 +247,8 @@ $slider-width: calc(#{$switch-width}/2);
     right: 0;
     bottom: 0;
     background-color: $pastel-yellow;
-    -webkit-transition: .4s;
-    transition: .4s;
+    // -webkit-transition: .4s;
+    // transition: .4s;
 }
 
 .slider:before {
@@ -256,8 +259,12 @@ $slider-width: calc(#{$switch-width}/2);
     left: 4px;
     bottom: 4px;
     background-color: $off-white;
-    -webkit-transition: .4s;
-    transition: .4s;
+    // -webkit-transition: .4s;
+    // transition: .4s;
+}
+
+.slider, .slider:before {
+    @include transition(.4s);
 }
 
 // input:checked+.slider {
