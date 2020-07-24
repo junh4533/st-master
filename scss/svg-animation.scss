@@ -1,10 +1,10 @@
 .path {
     stroke-dasharray: 1000;
     stroke-dashoffset: 3000;
-    animation: dash 5s ease-in infinite;
+    @include animation(dash 5s ease-in infinite) ;
 }
 
-@keyframes dash {
+@include keyframes(dash) {
     from {
         stroke-dashoffset: 2000;
     }
