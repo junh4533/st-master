@@ -233,18 +233,18 @@ section {
 .ffwd-like:before {
   color: #f6c253; }
 
-.eboard-container {
+.member-container {
   text-align: center; }
 
 #our-team .col-6 {
   margin-bottom: 5%;
   padding: 25px 25px 25px 25px; }
 
-.eboard-description {
+.member-description {
   margin-top: 1rem; }
-  .eboard-description h5 {
+  .member-description h5 {
     color: #6a41ca; }
-  .eboard-description p {
+  .member-description p {
     font-weight: 500;
     font-style: italic; }
 

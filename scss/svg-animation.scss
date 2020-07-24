@@ -1,7 +1,7 @@
 .path {
     stroke-dasharray: 1000;
     stroke-dashoffset: 3000;
-    @include animation(dash 5s ease-in infinite) ;
+    @include animation(dash 5s ease-in infinite);
 }
 
 @include keyframes(dash) {
@@ -13,4 +13,3 @@
         stroke-dashoffset: 0;
     }
 }
-

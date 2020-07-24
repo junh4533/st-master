@@ -7,13 +7,7 @@
     <h2 class="d-block text-center"> Contact Us </h2>
     <br>
     <div class="container jumbotron">
-        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-        <script>
-            hbspt.forms.create({
-                portalId: '7988040',
-                formId: '8e65c71f-4fb8-4eeb-85d6-9a66044d3539',
-            })
-        </script>
+        <?php echo do_shortcode( '[hubspot type=form portal=8154984 id=611e3291-eeb0-45cb-9138-72f2e667dcd4]' ); ?>
     </div>
 </section>
 
