@@ -77,6 +77,9 @@
                 <a class="nav-link" href="<?php echo get_site_url(); ?>/open-applications">Opportunities</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="<?php echo get_site_url(); ?>/blog">Blog</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="<?php echo get_site_url(); ?>/contact-us">Contact Us</a>
             </li>
         </ul>
