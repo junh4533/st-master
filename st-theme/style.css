@@ -16,6 +16,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
   font-family: "Montserrat bold";
   src: url("https://fonts.googleapis.com/css2?family=Montserrat"); }
 
+.red {
+  color: red; }
+
 html,
 body {
   scroll-behavior: smooth;
