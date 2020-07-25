@@ -304,7 +304,8 @@ footer {
   .page-thumbnail img {
     object-fit: cover;
     max-height: 50vh;
-    width: 100%; }
+    width: 100%;
+    filter: brightness(0.5); }
 
 .page-content {
   padding: 20px 10% 5px 10% !important;
