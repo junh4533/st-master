@@ -11,10 +11,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import "variables";
 @import "mixins";
 
-.red {
-    color: red;
-}
-
 html,
 body {
     scroll-behavior: smooth;
@@ -82,7 +78,6 @@ p {
 
 a {
     text-decoration: none;
-
     color: rgb(62, 62, 62);
 
     &:hover {
@@ -163,6 +158,7 @@ section {
 @import 'open-applications';
 @import 'contact-us';
 @import 'single.scss';
+@import 'blog-preview.scss';
 
 /* Mobile devices */
 @media (max-width: 480px) {}
