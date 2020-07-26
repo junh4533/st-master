@@ -377,6 +377,19 @@ footer {
   overflow: hidden;
   text-overflow: ellipsis; }
 
+#promo-page .features-item {
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  background: #FFC107;
+  width: 500px;
+  height: 500px; }
+
+#promo-page .blueText {
+  color: #007BFF; }
+
 /* Mobile devices */
 /* Tablets */
 @media (max-width: 767px) {
