@@ -29,7 +29,10 @@
 </section>
 
 <section id="banner">
-	<h3></h3>
+	<h3 id="alert" class="mr-5">Free Website Hosting - Limited Time Offer!!</h3> <a
+		href="<?php echo get_site_url(); ?>/five-free-website-promo/" class="font-weight-bold btn btn-warning btn-sm">
+		Learn More
+	</a>
 </section>
 
 <!-- OUR MISSION SECTION -->
