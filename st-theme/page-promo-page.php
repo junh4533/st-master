@@ -1,7 +1,7 @@
 <?php /* Template Name: Promo Page */ ?>
 <?php get_header();?>
 <section class="text-center" id="promo-page">
-    <h3>Five <span class="blueText">FREE </span>Website Hosting for First Five Clients </h3>
+    <h3>Five <span class="blueText">FREE </span>Website Hosting for First Five Clients</h3>
     <br>
     <h3 class="mt-4">Limited Time Promotion for 2 Weeks!!</h3>
     <div class="container-fluid mt-5">
