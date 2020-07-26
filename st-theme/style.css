@@ -391,6 +391,10 @@ footer {
   padding: 15px;
   margin: auto; }
 
+#promo-page #promo-para {
+  max-width: 60%;
+  margin: auto; }
+
 #promo-page .blueText {
   color: #516deb;
   font-size: 125%;
