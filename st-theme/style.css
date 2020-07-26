@@ -58,7 +58,7 @@ h6 {
 h1 {
   font-family: "Montserrat bold", sans-serif;
   font-weight: 900;
-  font-size: 4.5rem; }
+  font-size: 3.25rem; }
 
 h2 {
   font-family: "Montserrat bold", sans-serif;
@@ -128,7 +128,7 @@ section {
   height: 8vh;
   padding: 0; }
   #banner #alert {
-    font-size: 100%; }
+    font-size: 90%; }
   #banner a {
     background-color: #516deb;
     border-color: #516deb;
@@ -432,6 +432,12 @@ footer {
     font-size: 125% !important; } }
 
 /* Mobile devices */
+@media only screen and (min-width: 480px) {
+  h1 {
+    font-size: 4.5rem; }
+  #banner #alert {
+    font-size: 100%; } }
+
 /* Tablets */
 @media only screen and (min-width: 767px) {
   .hero .hero-content {

@@ -49,7 +49,7 @@ h6 {
 h1 {
     font-family: $font-bold;
     font-weight: 900;
-    font-size: 4.5rem;
+    font-size: 3.25rem;
 }
 
 h2 {
@@ -138,7 +138,7 @@ section {
     padding: 0;
 
     #alert {
-        font-size: 100%;
+        font-size: 90%;
     }
 
     a {
@@ -173,7 +173,15 @@ section {
 
 /* Mobile devices */
 @media only screen and (min-width: 480px) {
+    h1 {
+        font-size: 4.5rem;
+    }
 
+    #banner {
+        #alert {
+            font-size: 100%;
+        }
+    }
 }
 
 /* Tablets */
