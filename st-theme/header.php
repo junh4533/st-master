@@ -2,14 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-    <title>Saving Takeouts</title>
+    <title>SavingTakeouts</title>
     <!-- Description, Keywords and Author -->
     <meta name="description"
-        content="A non-profit organization that connects volunteers with small business to give them free business consultation.">
+        content="A non-profit organization that connects freelance specialists to small businesses to provide free marketing and technological services.">
     <meta name="keywords"
-        content="NPO, Volunteer, Internship, SavingTakeouts, Saving, Takeouts, Free, Business Consultation, Marketing, Advertising, Graphic Design, Web Design, Website, Branding, Social Media">
-    <meta name="author" content="Jun Huang">
-
+        content="non profit, small businesses, Pandemic assistance, free services, Volunteer, Internship, SavingTakeouts, Saving, Takeouts, Business Consultation, Marketing, Advertising, Graphic Design, Web Design, Website, Branding, Social Media">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); //includes scripts and stylesheets ?> 
 </head>
