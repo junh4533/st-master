@@ -18,17 +18,17 @@
                     </div>
                     <div class="col-6 col-lg-4 mb-5">
                         <div class="features-item">
-                            Web Content
+                            Web Development
                         </div>
                     </div>
                     <div class="col-6 col-lg-4 mb-5">
                         <div class="features-item">
-                            Maintenance
+                            Website Maintenance
                         </div>
                     </div>
                     <div class="col-6 col-lg-4 mb-5">
                         <div class="features-item">
-                            Marketing
+                            Creative Design
                         </div>
                     </div>
                     <div class="col-6 col-lg-4 mb-5">
