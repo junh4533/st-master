@@ -12,32 +12,32 @@
             <div class="col-12 col-lg-6 mb-2 d-flex align-items-center">
                 <div class="row justify-content-center">
                     <div class="col-6 col-lg-4 mb-5">
-                        <div class="features-item rounded-circle">
+                        <div class="features-item">
                             Free hosting (typically costs $100+)
                         </div>
                     </div>
                     <div class="col-6 col-lg-4 mb-5">
-                        <div class="features-item rounded-circle">
+                        <div class="features-item">
                             Website Development
                         </div>
                     </div>
                     <div class="col-6 col-lg-4 mb-5">
-                        <div class="features-item rounded-circle">
+                        <div class="features-item">
                             Website Maintenance
                         </div>
                     </div>
                     <div class="col-6 col-lg-4 mb-5">
-                        <div class="features-item rounded-circle">
+                        <div class="features-item">
                             Creative Design
                         </div>
                     </div>
                     <div class="col-6 col-lg-4 mb-5">
-                        <div class="features-item rounded-circle">
+                        <div class="features-item">
                             Subject to domain cost (~$10 per year)
                         </div>
                     </div>
                     <div class="col-6 col-lg-4 mb-5">
-                        <div class="features-item rounded-circle">
+                        <div class="features-item">
                             <a class="blueText" href="https://forms.gle/9AR2Q6d3EMm1Lnqt7" target="_blank">Click here to APPLY NOW!</a>
                         </div>
                     </div>

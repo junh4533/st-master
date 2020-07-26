@@ -6,12 +6,13 @@
         text-align: center;
         display: flex;
         background: $pastel-yellow;
-        width: 125px;
-        height: 125px;
+        width: 150px;
+        height: 150px;
         font-weight: bold;
         font-size: 75%;
         padding: 15px;
         margin: auto;
+        box-shadow: 0 0 3px 3px $light-gray;
     }
 
     #promo-para{
@@ -26,7 +27,23 @@
     }
 }
 
+@media only screen and (min-width: 480px) {
+    .features-item {
+        width: 200px !important;
+        height: 200px !important;
+        font-size: 100% !important;
+    }
+}
+
 @media only screen and (min-width: 768px) {
+    .features-item {
+        width: 225px !important;
+        height: 225px !important;
+        font-size: 125% !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
     .features-item {
         width: 150px !important;
         height: 150px !important;
@@ -36,8 +53,8 @@
 
 @media only screen and (min-width: 1700px) {
     .features-item {
-        width: 175px !important;
-        height: 175px !important;
+        width: 200px !important;
+        height: 200px !important;
         font-size: 125% !important;
     }
 }

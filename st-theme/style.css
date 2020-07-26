@@ -127,6 +127,8 @@ section {
   background: #f6c253;
   height: 8vh;
   padding: 0; }
+  #banner #alert {
+    font-size: 100%; }
   #banner a {
     background-color: #516deb;
     border-color: #516deb;
@@ -388,12 +390,13 @@ footer {
   text-align: center;
   display: flex;
   background: #f6c253;
-  width: 125px;
-  height: 125px;
+  width: 150px;
+  height: 150px;
   font-weight: bold;
   font-size: 75%;
   padding: 15px;
-  margin: auto; }
+  margin: auto;
+  box-shadow: 0 0 3px 3px #cacaca; }
 
 #promo-page #promo-para {
   max-width: 60%;
@@ -404,7 +407,19 @@ footer {
   font-size: 125%;
   font-weight: bold; }
 
+@media only screen and (min-width: 480px) {
+  .features-item {
+    width: 200px !important;
+    height: 200px !important;
+    font-size: 100% !important; } }
+
 @media only screen and (min-width: 768px) {
+  .features-item {
+    width: 225px !important;
+    height: 225px !important;
+    font-size: 125% !important; } }
+
+@media only screen and (min-width: 992px) {
   .features-item {
     width: 150px !important;
     height: 150px !important;
@@ -412,13 +427,13 @@ footer {
 
 @media only screen and (min-width: 1700px) {
   .features-item {
-    width: 175px !important;
-    height: 175px !important;
+    width: 200px !important;
+    height: 200px !important;
     font-size: 125% !important; } }
 
 /* Mobile devices */
 /* Tablets */
-@media (max-width: 767px) {
+@media only screen and (min-width: 767px) {
   .hero .hero-content {
     text-align: center; }
     .hero .hero-content img {
@@ -428,9 +443,14 @@ footer {
     max-width: 360px;
     margin: 0 auto; }
   .hero .about .sub-message form {
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+  #banner #alert {
+    font-size: 150%; } }
 
-/* Desktop and larger */
+@media only screen and (min-width: 991px) {
+  #banner #alert {
+    font-size: 200%; } }
+
 .switch {
   position: relative;
   display: inline-block;
