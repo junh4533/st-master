@@ -148,6 +148,9 @@ section {
   #logo {
     width: 60% !important; } }
 
+.nav-item {
+  transition: color 0.5s ease-out; }
+
 .path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 3000;
