@@ -84,6 +84,7 @@ p {
 
 a {
   text-decoration: none;
+  transition: all 0.25s ease-out;
   color: #3e3e3e; }
   a:hover {
     text-decoration: none;
@@ -125,8 +126,7 @@ section {
   align-items: center;
   width: 100%;
   background: #f6c253;
-  height: 8vh;
-  padding: 0; }
+  padding: 10px 0; }
   #banner #alert {
     font-size: 90%; }
   #banner a {
@@ -146,16 +146,14 @@ section {
   background: white;
   border-bottom: 3px solid #fafafa; }
   .navbar .nav-link a {
-    color: #1f1f1f; }
+    color: #1f1f1f;
+    transition: all 0.5s ease-out; }
   .navbar .navbar-brand {
     max-width: 15%; }
 
 @media (max-width: 991px) {
   #logo {
     width: 60% !important; } }
-
-.nav-item {
-  transition: color 0.5s ease-out; }
 
 .path {
   stroke-dasharray: 1000;

@@ -78,6 +78,7 @@ p {
 
 a {
     text-decoration: none;
+    transition: all 0.25s ease-out;
     color: rgb(62, 62, 62);
 
     &:hover {
@@ -134,8 +135,7 @@ section {
     align-items: center;
     width: 100%;
     background: $pastel-yellow;
-    height: 8vh;
-    padding: 0;
+    padding: 10px 0;
 
     #alert {
         font-size: 90%;
