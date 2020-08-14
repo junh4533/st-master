@@ -58,7 +58,7 @@ h6 {
 h1 {
   font-family: "Montserrat bold", sans-serif;
   font-weight: 900;
-  font-size: 4.5rem; }
+  font-size: 3.25rem; }
 
 h2 {
   font-family: "Montserrat bold", sans-serif;
@@ -79,7 +79,7 @@ p {
 .btn {
   border-radius: 50px !important; }
   .btn:hover, .btn:focus {
-    background: none;
+    background: none !important;
     box-shadow: inset 0 0 0 2em transparent !important; }
 
 a {
@@ -127,6 +127,12 @@ section {
   background: #f6c253;
   height: 8vh;
   padding: 0; }
+  #banner #alert {
+    font-size: 90%; }
+  #banner a {
+    background-color: #516deb;
+    border-color: #516deb;
+    color: white; }
 
 #mission #promo-video {
   width: 100%;
@@ -380,9 +386,63 @@ footer {
   overflow: hidden;
   text-overflow: ellipsis; }
 
+#promo-page .features-item {
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  background: #f6c253;
+  width: 150px;
+  height: 150px;
+  font-weight: bold;
+  font-size: 75%;
+  padding: 15px;
+  margin: auto;
+  box-shadow: 0 0 3px 3px #cacaca; }
+
+#promo-page #promo-para {
+  max-width: 60%;
+  margin: auto; }
+
+#promo-page .blueText {
+  color: #516deb;
+  font-size: 125%;
+  font-weight: bold; }
+
+@media only screen and (min-width: 480px) {
+  .features-item {
+    width: 200px !important;
+    height: 200px !important;
+    font-size: 100% !important; } }
+
+@media only screen and (min-width: 768px) {
+  .features-item {
+    width: 225px !important;
+    height: 225px !important;
+    font-size: 125% !important; } }
+
+@media only screen and (min-width: 992px) {
+  .features-item {
+    width: 150px !important;
+    height: 150px !important;
+    font-size: 100% !important; } }
+
+@media only screen and (min-width: 1700px) {
+  .features-item {
+    width: 200px !important;
+    height: 200px !important;
+    font-size: 125% !important; } }
+
 /* Mobile devices */
+@media only screen and (min-width: 480px) {
+  h1 {
+    font-size: 4.5rem; }
+  #banner #alert {
+    font-size: 100%; } }
+
 /* Tablets */
-@media (max-width: 767px) {
+@media only screen and (min-width: 767px) {
   .hero .hero-content {
     text-align: center; }
     .hero .hero-content img {
@@ -392,9 +452,14 @@ footer {
     max-width: 360px;
     margin: 0 auto; }
   .hero .about .sub-message form {
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+  #banner #alert {
+    font-size: 150%; } }
 
-/* Desktop and larger */
+@media only screen and (min-width: 991px) {
+  #banner #alert {
+    font-size: 200%; } }
+
 .switch {
   position: relative;
   display: inline-block;

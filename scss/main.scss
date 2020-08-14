@@ -49,7 +49,7 @@ h6 {
 h1 {
     font-family: $font-bold;
     font-weight: 900;
-    font-size: 4.5rem;
+    font-size: 3.25rem;
 }
 
 h2 {
@@ -71,7 +71,7 @@ p {
     border-radius: 50px !important;
 
     &:hover, &:focus {
-        background: none;
+        background: none !important;
         box-shadow: inset 0 0 0 2em transparent !important;
     }
 }
@@ -136,6 +136,16 @@ section {
     background: $pastel-yellow;
     height: 8vh;
     padding: 0;
+
+    #alert {
+        font-size: 90%;
+    }
+
+    a {
+        background-color: rgb(81, 109, 235);
+        border-color: rgb(81, 109, 235);
+        color: white;
+    }
 }
 
 #mission {
@@ -158,13 +168,24 @@ section {
 @import 'open-applications';
 @import 'contact-us';
 @import 'single.scss';
-@import 'blog-preview.scss';
+@import 'blog-preview';
+@import 'promo-page';
 
 /* Mobile devices */
-@media (max-width: 480px) {}
+@media only screen and (min-width: 480px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    #banner {
+        #alert {
+            font-size: 100%;
+        }
+    }
+}
 
 /* Tablets */
-@media (max-width: 767px) {
+@media only screen and (min-width: 767px) {
     .hero {
 
         .hero-content {
@@ -187,23 +208,19 @@ section {
             }
         }
     }
-
-    // .contact form {
-    //     width: 85%;
-    // }
+    #banner {   
+        #alert {
+            font-size: 150%;
+        }
+    }
 }
 
-/* Desktop and larger */
-@media (min-width: 768px) {
-    // .contact form {
-    //     width: 75%;
-    // }
-}
-
-@media (min-width: 991px) {
-    // .contact form {
-    //     width: 60%;
-    // }
+@media only screen and (min-width: 991px) {
+    #banner {   
+        #alert {
+            font-size: 200%;
+        }
+    }
 }
 
 $switch-width: 245px;

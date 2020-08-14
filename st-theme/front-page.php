@@ -29,7 +29,19 @@
 </section>
 
 <section id="banner">
-	<h3></h3>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-7 col-sm-9 col-xl-10 d-flex justify-content-center">
+				<h3 id="alert" class="mr-2">Free Website Hosting - Limited Time Offer!!</h3>
+			</div>
+			<div class="col-5 col-sm-3 col-xl-2 d-flex align-items-center justify-content-center">
+				<a href="<?php echo get_site_url(); ?>/five-free-website-promo/"
+					class="font-weight-bold btn btn-warning btn-sm">
+					Learn More
+				</a>
+			</div>
+		</div>
+	</div>
 </section>
 
 <!-- OUR MISSION SECTION -->
