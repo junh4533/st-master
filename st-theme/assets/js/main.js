@@ -1,4 +1,6 @@
 jQuery(document).ready(function () {
+
+
     // on switch toggle
     document.getElementById("page-toggle").addEventListener("click", function () {
         // toggle section for businesses and interns 
@@ -36,5 +38,4 @@ jQuery(document).ready(function () {
     jQuery('.navbar-nav>li>a').not(".dropdown-toggle").on('click', function () {
         jQuery('.navbar-collapse').collapse('hide');
     });
-
 });
