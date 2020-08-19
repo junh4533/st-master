@@ -63,14 +63,14 @@ p {
     padding: 0;
     font-weight: 500;
     color: $subheading-gray;
-    // transition: color .75s ease-in-out;
     @include transition(color .75s ease-in-out);
 }
 
 .btn {
     border-radius: 50px !important;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         background: none !important;
         box-shadow: inset 0 0 0 2em transparent !important;
     }
@@ -83,7 +83,6 @@ a {
     &:hover {
         text-decoration: none;
         outline: 0 !important;
-        // transition: color .35s ease-in-out;
         @include transition(background-color .3s ease-in-out);
         color: $dark-gray;
     }
@@ -107,13 +106,10 @@ img {
 }
 
 section {
-    // margin-top: 3vh;
-    // margin-bottom: 3vh;
     padding: 15vh 0;
 }
 
 #home {
-    // margin-top: 15vh;
     margin-bottom: 3vh;
     padding: 12vh 0;
 
@@ -150,10 +146,10 @@ section {
 
 #mission {
     #promo-video {
-        width:100%; 
-        height:100%;
-        top:0;
-        left:0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
         object-fit: cover;
     }
 }
@@ -208,7 +204,8 @@ section {
             }
         }
     }
-    #banner {   
+
+    #banner {
         #alert {
             font-size: 150%;
         }
@@ -216,7 +213,7 @@ section {
 }
 
 @media only screen and (min-width: 991px) {
-    #banner {   
+    #banner {
         #alert {
             font-size: 200%;
         }
@@ -235,6 +232,42 @@ $slider-width: calc(#{$switch-width}/2);
     width: $switch-width;
     height: $switch-height;
 
+    #page-toggle {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        cursor: pointer;
+        opacity: 0;
+        width: 0;
+        height: 0;
+
+        &:checked+.slider:before {
+            @include transform(translateX($travel-distance));
+        }
+    }
+
+    .slider {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $pastel-yellow;
+        @include transition(.4s);
+    
+        &:before {
+            position: absolute;
+            content: "";
+            height: calc(#{$switch-height} - 8px);
+            width: calc(#{$slider-width} - 8px);
+            left: 4px;
+            bottom: 4px;
+            background-color: $off-white;
+            @include transition(.4s);
+        }
+    }
+
     p {
         position: absolute;
         top: 12.5px;
@@ -248,64 +281,7 @@ $slider-width: calc(#{$switch-width}/2);
 
     #toggle-volunteers {
         right: 30px;
-    }
-}
-
-.switch input {
-    cursor: pointer;
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-.slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: $pastel-yellow;
-    // -webkit-transition: .4s;
-    // transition: .4s;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: calc(#{$switch-height} - 8px);
-    width: calc(#{$slider-width} - 8px);
-    left: 4px;
-    bottom: 4px;
-    background-color: $off-white;
-    // -webkit-transition: .4s;
-    // transition: .4s;
-}
-
-.slider, .slider:before {
-    @include transition(.4s);
-}
-
-// input:checked+.slider {
-//     background-color: #2196F3;
-// }
-
-// input:focus+.slider {
-//     box-shadow: 0 0 1px #2196F3;
-// }
-
-#page-toggle {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    z-index: 999;
-}
-
-.toggle-switch-animation {
-    input:checked+.slider:before {
-        -webkit-transform: translateX($travel-distance);
-        -ms-transform: translateX($travel-distance);
-        transform: translateX($travel-distance);
-    }
+    } 
 }
 
 /* Rounded sliders */
@@ -316,4 +292,29 @@ $slider-width: calc(#{$switch-width}/2);
 .slider.round:before {
     border-radius: 5px;
     box-shadow: 0 0 4px 2px rgba(51, 51, 51, 0.438);
+}
+
+// color classes 
+.cornflower-bg {
+    background: $cornflower !important;
+}
+
+.white-text {
+    color: white !important;
+}
+
+.off-white-text {
+    color: $off-white !important;
+}
+
+.gray-text {
+    color: $subheading-gray !important;
+}
+
+.pastel-yellow-text {
+    color: $pastel-yellow !important;
+}
+
+.transparent-bg {
+    background: transparent !important;
 }
